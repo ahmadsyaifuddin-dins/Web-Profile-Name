@@ -155,6 +155,7 @@ body {
         justify-content: center;
         align-items: center;
     }
+
 }
 
 
@@ -189,7 +190,7 @@ body {
 @media only screen and (max-width: 480px) {
     .profile p {
         margin-bottom: 10px;
-
+        text-align: left;
         /* Gunakan margin untuk memberikan jarak antara paragraf di tampilan HP */
     }
 }
