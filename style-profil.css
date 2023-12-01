@@ -189,9 +189,10 @@ body {
 /* Media query untuk layar HP */
 @media only screen and (max-width: 480px) {
     .profile p {
+        /* Gunakan margin untuk memberikan jarak antara paragraf di tampilan HP */
         margin-bottom: 10px;
         text-align: left;
-        /* Gunakan margin untuk memberikan jarak antara paragraf di tampilan HP */
+
     }
 }
 
