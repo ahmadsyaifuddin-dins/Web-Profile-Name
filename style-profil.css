@@ -203,9 +203,7 @@ body {
 
 
 .footer {
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    text-align: center;
     margin-top: 50px;
 }
 

@@ -48,20 +48,17 @@
     </div>
 
 
-    <div class="footer"> Copyright © Ahmad Syaifuddin | 2023 All Right Reserved </div>
+    <div class="footer"> Copyright © Ahmad Syaifuddin | <span id="year"> </span> All Right Reserved </div>
 
-
-    <!-- Toggle Navbar -->
+    <!-- Get year Dynamic Footer -->
     <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
+        document.getElementById("year").innerHTML = new Date().getFullYear();
     </script>
+
+    <!-- Toggle Navbar Link-->
+    <script src="toggle.js"></script>
+
+
 </body>
 
 </html>
